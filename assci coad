@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(
+int main()
 {
     char ch;
     printf("Enter any character:");
@@ -14,5 +14,5 @@ int main(
      * char variable then it displays the ASCII value of a char
      */
     printf("ASCII value of character %c is: %d", ch, ch);
-    return 0
+    return 0;
 }
